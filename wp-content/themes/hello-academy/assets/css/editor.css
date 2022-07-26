@@ -1,0 +1,63 @@
+/**
+ * DO NOT CHANGE THIS FILE!
+ * To override any of the settings in this section, add your styling code in the custom directory.
+ * Loading first in the style.scss & classic-editor.scss
+ */
+/**
+ * Style for the Gutenberg Editor
+ */
+.editor-styles-wrapper {
+  font-family: "Inter", sans-serif !important;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.8;
+  color: #444444;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.editor-styles-wrapper .editor-post-title .editor-post-title__input,
+.editor-styles-wrapper h1,
+.editor-styles-wrapper h2,
+.editor-styles-wrapper h3,
+.editor-styles-wrapper h4,
+.editor-styles-wrapper h5,
+.editor-styles-wrapper h6 {
+  font-family: "Montserrat", sans-serif !important;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  font-family: inherit;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #111111;
+}
+.editor-styles-wrapper h1 {
+  font-size: 2.5rem;
+}
+.editor-styles-wrapper h2 {
+  font-size: 2rem;
+}
+.editor-styles-wrapper h3 {
+  font-size: 1.75rem;
+}
+.editor-styles-wrapper h4 {
+  font-size: 1.5rem;
+}
+.editor-styles-wrapper h5 {
+  font-size: 1.25rem;
+}
+.editor-styles-wrapper h6 {
+  font-size: 1rem;
+}
+.editor-styles-wrapper p {
+  margin-top: 0;
+  margin-bottom: 0.9rem;
+}
+.editor-styles-wrapper .gallery-caption {
+  font-family: "Inter", sans-serif;
+  color: #444444;
+  display: block;
+  font-size: 13px;
+  line-height: 26px;
+  font-weight: 400;
+}

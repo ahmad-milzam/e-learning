@@ -1,0 +1,272 @@
+2022-06-19 09:16:47 - Queuing email notification ID #1
+2022-06-19 09:16:50 - Dispatching llms_notification_processor_email
+2022-06-19 09:16:51 - sending email notification ID #1
+2022-06-19 09:16:53 - error sending email notification ID #1
+2022-06-19 09:16:53 - Array
+(
+    [id] => 1
+    [created] => 2022-06-19 09:16:47
+    [updated] => 2022-06-19 09:16:47
+    [status] => new
+    [type] => email
+    [subscriber] => 2
+    [trigger_id] => student_welcome
+    [user_id] => 2
+    [post_id] => 
+    [html] => <p>Hello user student,</p>
+<p>Here's some helpful information to help you get started at e-learning.</p>
+<p><b>Your Login</b>: useranonym29</p>
+<p><b>Your Dashboard</b>: <a href="http://localhost/e-learning/dashboard/">http://localhost/e-learning/dashboard/</a></p>
+<p>If you forgot or don't have a password you can reset it now so you can login and get started: <a href="http://localhost/e-learning/dashboard/lost-password/">http://localhost/e-learning/dashboard/lost-password/</a></p>
+
+)
+
+2022-06-19 09:16:53 - Processing for llms_notification_processor_email finished
+2022-06-19 09:31:33 - Queuing email notification ID #33
+2022-06-19 09:32:03 - Dispatching llms_notification_processor_email
+2022-06-19 09:32:04 - sending email notification ID #33
+2022-06-19 09:32:06 - error sending email notification ID #33
+2022-06-19 09:32:06 - Array
+(
+    [id] => 33
+    [created] => 2022-06-19 09:31:33
+    [updated] => 2022-06-19 09:31:33
+    [status] => new
+    [type] => email
+    [subscriber] => 1
+    [trigger_id] => course_complete
+    [user_id] => 2
+    [post_id] => 18
+    [html] => <p>Congratulations!   User student completed LifterLMS Quickstart Course</p>
+
+)
+
+2022-06-19 09:32:06 - Processing for llms_notification_processor_email finished
+2022-06-19 09:48:00 - Queuing email notification ID #58
+2022-06-19 09:48:44 - Dispatching llms_notification_processor_email
+2022-06-19 09:48:45 - sending email notification ID #58
+2022-06-19 09:48:47 - error sending email notification ID #58
+2022-06-19 09:48:47 - Array
+(
+    [id] => 58
+    [created] => 2022-06-19 09:48:00
+    [updated] => 2022-06-19 09:48:00
+    [status] => new
+    [type] => email
+    [subscriber] => 1
+    [trigger_id] => course_complete
+    [user_id] => 1
+    [post_id] => 18
+    [html] => <p>Congratulations!   You completed LifterLMS Quickstart Course</p>
+
+)
+
+2022-06-19 09:48:47 - Processing for llms_notification_processor_email finished
+2022-06-19 10:40:56 - Queuing email notification ID #61
+2022-06-19 10:41:46 - Dispatching llms_notification_processor_email
+2022-06-19 10:41:47 - sending email notification ID #61
+2022-06-19 10:41:49 - error sending email notification ID #61
+2022-06-19 10:41:49 - Array
+(
+    [id] => 61
+    [created] => 2022-06-19 10:40:56
+    [updated] => 2022-06-19 10:40:56
+    [status] => new
+    [type] => email
+    [subscriber] => 1
+    [trigger_id] => manual_payment_due
+    [user_id] => 1
+    [post_id] => 175
+    [html] => <p>Hello aziman ahmad,</p>
+<p>A payment for your subscription to LifterLMS Quickstart Course is due.</p>
+<p>Sign in to your account and <a href="http://localhost/e-learning/dashboard/orders/175/">pay now</a>.</p>
+<h4>Order #175</h4>
+<table style="border-collapse:collapse;color:#222222;font-family:sans-serif;font-size:15px;Margin-bottom:15px;text-align:left;width:100%;">
+<tr style="color:inherit;font-family:inherit;font-size:inherit;">
+<th style="border-bottom:1px solid #cecece;color:inherit;font-family:inherit;font-size:inherit;padding:10px;width:33.3333%;">Payment Due Date</th>
+<td style="border-bottom:1px solid #cecece;color:inherit;font-family:inherit;font-size:inherit;padding:10px;"></td>
+</tr>
+<tr style="color:inherit;font-family:inherit;font-size:inherit;">
+<th style="border-bottom:1px solid #cecece;color:inherit;font-family:inherit;font-size:inherit;padding:10px;width:33.3333%;">Course</th>
+<td style="border-bottom:1px solid #cecece;color:inherit;font-family:inherit;font-size:inherit;padding:10px;"><a href="http://localhost/e-learning/course/lifterlms-quickstart-course/">LifterLMS Quickstart Course</a></td>
+</tr>
+<tr style="color:inherit;font-family:inherit;font-size:inherit;">
+<th style="border-bottom:1px solid #cecece;color:inherit;font-family:inherit;font-size:inherit;padding:10px;width:33.3333%;">Plan</th>
+<td style="border-bottom:1px solid #cecece;color:inherit;font-family:inherit;font-size:inherit;padding:10px;">Start Strong</td>
+</tr>
+<tr style="color:inherit;font-family:inherit;font-size:inherit;">
+<th style="border-bottom:1px solid #cecece;color:inherit;font-family:inherit;font-size:inherit;padding:10px;width:33.3333%;">Amount</th>
+<td style="border-bottom:1px solid #cecece;color:inherit;font-family:inherit;font-size:inherit;padding:10px;"><span class="lifterlms-price"><span class="llms-price-currency-symbol">Rp</span>15.000,00</span></td>
+</tr>
+</table>
+<p><a href="http://localhost/e-learning/dashboard/orders/175/">Pay Invoice</a></p>
+
+)
+
+2022-06-19 10:41:49 - Processing for llms_notification_processor_email finished
+2022-06-19 11:37:48 - Queuing email notification ID #67
+2022-06-19 11:38:21 - Dispatching llms_notification_processor_email
+2022-06-19 11:38:23 - sending email notification ID #67
+2022-06-19 11:38:25 - error sending email notification ID #67
+2022-06-19 11:38:25 - Array
+(
+    [id] => 67
+    [created] => 2022-06-19 11:37:48
+    [updated] => 2022-06-19 11:37:48
+    [status] => new
+    [type] => email
+    [subscriber] => 1
+    [trigger_id] => course_complete
+    [user_id] => 1
+    [post_id] => 176
+    [html] => <p>Congratulations!   You completed</p>
+
+)
+
+2022-06-19 11:38:25 - Processing for llms_notification_processor_email finished
+2022-06-19 13:16:58 - Queuing email notification ID #69
+2022-06-19 13:17:44 - Dispatching llms_notification_processor_email
+2022-06-19 13:17:45 - sending email notification ID #69
+2022-06-19 13:17:47 - error sending email notification ID #69
+2022-06-19 13:17:47 - Array
+(
+    [id] => 69
+    [created] => 2022-06-19 13:16:58
+    [updated] => 2022-06-19 13:16:58
+    [status] => new
+    [type] => email
+    [subscriber] => 2
+    [trigger_id] => manual_payment_due
+    [user_id] => 2
+    [post_id] => 201
+    [html] => <p>Hello user student,</p>
+<p>A payment for your subscription to tes course is due.</p>
+<p>Sign in to your account and <a href="http://localhost/e-learning/dashboard/orders/201/">pay now</a>.</p>
+<h4>Order #201</h4>
+<table style="border-collapse:collapse;color:#222222;font-family:sans-serif;font-size:15px;Margin-bottom:15px;text-align:left;width:100%;">
+<tr style="color:inherit;font-family:inherit;font-size:inherit;">
+<th style="border-bottom:1px solid #cecece;color:inherit;font-family:inherit;font-size:inherit;padding:10px;width:33.3333%;">Payment Due Date</th>
+<td style="border-bottom:1px solid #cecece;color:inherit;font-family:inherit;font-size:inherit;padding:10px;"></td>
+</tr>
+<tr style="color:inherit;font-family:inherit;font-size:inherit;">
+<th style="border-bottom:1px solid #cecece;color:inherit;font-family:inherit;font-size:inherit;padding:10px;width:33.3333%;">Course</th>
+<td style="border-bottom:1px solid #cecece;color:inherit;font-family:inherit;font-size:inherit;padding:10px;"><a href="http://localhost/e-learning/course/tes-course/">tes course</a></td>
+</tr>
+<tr style="color:inherit;font-family:inherit;font-size:inherit;">
+<th style="border-bottom:1px solid #cecece;color:inherit;font-family:inherit;font-size:inherit;padding:10px;width:33.3333%;">Plan</th>
+<td style="border-bottom:1px solid #cecece;color:inherit;font-family:inherit;font-size:inherit;padding:10px;">paid tes course</td>
+</tr>
+<tr style="color:inherit;font-family:inherit;font-size:inherit;">
+<th style="border-bottom:1px solid #cecece;color:inherit;font-family:inherit;font-size:inherit;padding:10px;width:33.3333%;">Amount</th>
+<td style="border-bottom:1px solid #cecece;color:inherit;font-family:inherit;font-size:inherit;padding:10px;"><span class="lifterlms-price"><span class="llms-price-currency-symbol">Rp</span>20.000,00</span></td>
+</tr>
+</table>
+<p><a href="http://localhost/e-learning/dashboard/orders/201/">Pay Invoice</a></p>
+
+)
+
+2022-06-19 13:17:47 - Processing for llms_notification_processor_email finished
+2022-06-19 13:20:49 - Queuing email notification ID #75
+2022-06-19 13:21:42 - Dispatching llms_notification_processor_email
+2022-06-19 13:21:44 - sending email notification ID #75
+2022-06-19 13:21:46 - error sending email notification ID #75
+2022-06-19 13:21:46 - Array
+(
+    [id] => 75
+    [created] => 2022-06-19 13:20:49
+    [updated] => 2022-06-19 13:20:49
+    [status] => new
+    [type] => email
+    [subscriber] => 1
+    [trigger_id] => course_complete
+    [user_id] => 2
+    [post_id] => 176
+    [html] => <p>Congratulations!   User student completed tes course</p>
+
+)
+
+2022-06-19 13:21:46 - Processing for llms_notification_processor_email finished
+2022-06-19 13:53:23 - Queuing email notification ID #77
+2022-06-19 13:53:23 - Queuing email notification ID #79
+2022-06-19 13:53:32 - Dispatching llms_notification_processor_email
+2022-06-19 13:53:33 - sending email notification ID #77
+2022-06-19 13:53:35 - error sending email notification ID #77
+2022-06-19 13:53:35 - Array
+(
+    [id] => 77
+    [created] => 2022-06-19 13:53:23
+    [updated] => 2022-06-19 13:53:23
+    [status] => new
+    [type] => email
+    [subscriber] => 3
+    [trigger_id] => student_welcome
+    [user_id] => 3
+    [post_id] => 
+    [html] => <p>Hello aziman dev2,</p>
+<p>Here's some helpful information to help you get started at e-learning.</p>
+<p><b>Your Login</b>: azimanbuatdownload</p>
+<p><b>Your Dashboard</b>: <a href="http://localhost/e-learning/dashboard/">http://localhost/e-learning/dashboard/</a></p>
+<p>If you forgot or don't have a password you can reset it now so you can login and get started: <a href="http://localhost/e-learning/dashboard/lost-password/">http://localhost/e-learning/dashboard/lost-password/</a></p>
+
+)
+
+2022-06-19 13:53:35 - sending email notification ID #79
+2022-06-19 13:53:37 - error sending email notification ID #79
+2022-06-19 13:53:37 - Array
+(
+    [id] => 79
+    [created] => 2022-06-19 13:53:23
+    [updated] => 2022-06-19 13:53:23
+    [status] => new
+    [type] => email
+    [subscriber] => 3
+    [trigger_id] => manual_payment_due
+    [user_id] => 3
+    [post_id] => 204
+    [html] => <p>Hello aziman dev2,</p>
+<p>A payment for your subscription to tes course is due.</p>
+<p>Sign in to your account and <a href="http://localhost/e-learning/dashboard/orders/204/">pay now</a>.</p>
+<h4>Order #204</h4>
+<table style="border-collapse:collapse;color:#222222;font-family:sans-serif;font-size:15px;Margin-bottom:15px;text-align:left;width:100%;">
+<tr style="color:inherit;font-family:inherit;font-size:inherit;">
+<th style="border-bottom:1px solid #cecece;color:inherit;font-family:inherit;font-size:inherit;padding:10px;width:33.3333%;">Payment Due Date</th>
+<td style="border-bottom:1px solid #cecece;color:inherit;font-family:inherit;font-size:inherit;padding:10px;"></td>
+</tr>
+<tr style="color:inherit;font-family:inherit;font-size:inherit;">
+<th style="border-bottom:1px solid #cecece;color:inherit;font-family:inherit;font-size:inherit;padding:10px;width:33.3333%;">Course</th>
+<td style="border-bottom:1px solid #cecece;color:inherit;font-family:inherit;font-size:inherit;padding:10px;"><a href="http://localhost/e-learning/course/tes-course/">tes course</a></td>
+</tr>
+<tr style="color:inherit;font-family:inherit;font-size:inherit;">
+<th style="border-bottom:1px solid #cecece;color:inherit;font-family:inherit;font-size:inherit;padding:10px;width:33.3333%;">Plan</th>
+<td style="border-bottom:1px solid #cecece;color:inherit;font-family:inherit;font-size:inherit;padding:10px;">paid tes course</td>
+</tr>
+<tr style="color:inherit;font-family:inherit;font-size:inherit;">
+<th style="border-bottom:1px solid #cecece;color:inherit;font-family:inherit;font-size:inherit;padding:10px;width:33.3333%;">Amount</th>
+<td style="border-bottom:1px solid #cecece;color:inherit;font-family:inherit;font-size:inherit;padding:10px;"><span class="lifterlms-price"><span class="llms-price-currency-symbol">Rp</span>20.000,00</span></td>
+</tr>
+</table>
+<p><a href="http://localhost/e-learning/dashboard/orders/204/">Pay Invoice</a></p>
+
+)
+
+2022-06-19 13:53:37 - Processing for llms_notification_processor_email finished
+2022-06-19 13:54:25 - Queuing email notification ID #85
+2022-06-19 13:54:40 - Dispatching llms_notification_processor_email
+2022-06-19 13:54:41 - sending email notification ID #85
+2022-06-19 13:54:43 - error sending email notification ID #85
+2022-06-19 13:54:43 - Array
+(
+    [id] => 85
+    [created] => 2022-06-19 13:54:25
+    [updated] => 2022-06-19 13:54:25
+    [status] => new
+    [type] => email
+    [subscriber] => 1
+    [trigger_id] => course_complete
+    [user_id] => 3
+    [post_id] => 176
+    [html] => <p>Congratulations!   Aziman dev2 completed tes course</p>
+
+)
+
+2022-06-19 13:54:43 - Processing for llms_notification_processor_email finished
